@@ -54,9 +54,9 @@ A sentence with links to `Wikipedia`_ and the `Linux kernel archive`_.
 .. _Wikipedia: https://www.wikipedia.org/
 .. _Linux kernel archive: https://www.kernel.org/
 
-Another sentence with an `anonymous link to the Python website`__.
+ 
 
-__ https://www.python.org/
+
 
 
 ::
@@ -72,12 +72,18 @@ This may also be used inline at the end of a paragraph, like so::
    print("A literal block directive explicitly marked as python code")
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
-学习资源链接
----------
+目录:
+^^^^^
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+    :glob:
+    
+    chap_1/index
+    chap_2/index
+    chap_3/index
 
 
 
